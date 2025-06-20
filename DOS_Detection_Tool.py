@@ -1,8 +1,4 @@
-"""Programm written by Survya Pratap Singh  """
-"""This code will sniff internet packets and parse it.Code will filter out all the packets and will display only TCP packets."""
-"""Code will also detect failed TCP 3 way handshake and RST failed connections"""
-"""RST failed connection means 'A' send syn packet to 'B' and 'B' will send either RST packet or no packet"""
-"""Failed TCP 3 way handshake means any system which has send syn packet but have not received ack packet."""
+
 
 
 
@@ -234,7 +230,7 @@ class selectNic:
                 
         
 
-#----------Class which has method to parse ehternet,ipv4 and TCP packets.----------#                
+#----------Class which has method to parse ethernet,ipv4 and TCP packets.----------#                
                       
                                                               
 class decodePacket :
@@ -329,4 +325,3 @@ if __name__ == "__main__":
     PcapySnifferTool()
 
 
-################################################################################## END OF CODE ####################################################################    
